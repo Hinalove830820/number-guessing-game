@@ -1,0 +1,87 @@
+html {
+    font-family: "Noto Sans", "Noto Sans TC", "Noto Sans JP", sans-serif;
+    background-color: rgb(219, 231, 226);
+}
+
+body {
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    min-height: 420px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    padding: 0 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.resultParas {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.questions {
+    background-color: antiquewhite;
+    width: max-content;
+    margin: 0 auto 15px;
+    padding: 0 10px;
+}
+
+.question {
+    margin: 10px auto;
+}
+
+.form input[type="number"] {
+    width: 200px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.lastResult {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    padding: 3px
+}
+
+.feedback {
+
+    color: white;
+}
+
+.guessSubmit {
+    height: 36px;
+    font-size: 20px;
+}
+
+.form {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 32px;
+}
+
+.result {
+    display: block;
+}
+
+.lowOrHi {
+    width: max-content;
+    margin: 20px auto 20px;
+}
+
+button {
+    background-color: blueviolet;
+    width: max-content;
+    align-self: center;
+}
