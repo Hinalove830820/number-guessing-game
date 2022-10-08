@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <script async src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Noto+Sans+TC:wght@100;300;400;500;700&family=Noto+Sans:wght@100;300;400;500;700&display=swap');
+    </style>
+
+    <title>Number guessing game</title>
+</head>
+
+<body>
+    <h1 class="title">猜數字遊戲</h1>
+
+    <div class="questions">
+        <p class="question">正確答案為1至100間的任意一個整數。</p>
+        <p class="question">若猜錯，會提示你太大或太小。</p>
+        <p class="question">一共有10次機會。</p>
+    </div>
+
+
+    <div class="form">
+        <label for="guessField">猜一個數: </label>
+        <input type="number" min="1" max="100" required id="guessField" class="guessField">
+        <input type="submit" value="送出答案" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <div class="feedback">
+            <p class="lastResult"></p>
+        </div>
+        <div class="result">
+            <p class="lowOrHi"></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
