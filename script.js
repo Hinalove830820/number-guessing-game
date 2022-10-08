@@ -26,7 +26,7 @@ function checkGuess() {
     } else if (userGuess < 1 || userGuess > 100) {
         lastResult.textContent = '猜錯了🥺'
         feedBack.style.backgroundColor = 'red'
-        LowOrHi.textContent = '!!!答案介於到100之間!!!'
+        LowOrHi.textContent = '!!!答案介於1到100之間!!!'
     } else if (userGuess === answer) {
         lastResult.textContent = '!!!恭喜你答對了😃!!!'
         feedBack.style.backgroundColor = 'green'
